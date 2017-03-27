@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>会员登录_免费注册_同程旅游</title>
+<link href="../css/login.css" rel="stylesheet" type="text/css"/>
+<script src="../js/login.js" type="text/ecmascript"></script>
+</head>
+
+<body>
+<!--header开始-->
+<div class="header">
+	<div class="logo">
+    	<a title="同程旅游" href="tcly.html">
+        	<img alt="同程旅游" src="../image/login/dl20151231102024.png"/>
+            
+        </a>
+        <!--可以设为背景-->
+        <img alt="品质更高价格更优服务更好" src="../image/login/20160809093011675.jpg" id="logo02"/>
+    </div>
+</div>
+<!--header end-->
+<div id="content_out">
+<!--content开始-->
+<div class="content">
+	<!--left_content-->
+	<div class="left_content">
+    	<a class="newclub_box" href="#" target="_blank">
+        <img title="" alt="" src="../image/login/uqaCyL.jpg"/>
+        </a>
+    </div>
+    <!--right_content-->   
+    <div class="right_content">
+    	<ul class="login_tab">
+        	<li class="comm_login" id="comm_login" onClick="click01()">普通登录</li>
+            <li class="mobilepsd_login" id="mobilepsd_login" onClick="click02()">手机动态密码登录</li>
+        </ul>
+        <div class="login_wrapper">
+        	<!--普通登录-->
+        	<div class="sign_ct" id="sign_ct">            
+            	<form id="login_form_pop" action="">
+                	<div class="comm_cont">
+                    	<div class="login_name">
+                        	<span><img src="../image/login/customer.jpg" align="center"></span>
+                        	<input name="name" id="account_pop"  type="text" maxlength="30" placeholder="手机号/邮箱"/>
+                        </div>
+                        <div class="login_password">
+                        	<span><img src="../image/login/password.jpg" align="center"></span>
+                        	<input name="pwd" id="pwd"  type="password" maxlength="18" placeholder="输入密码"/>
+                        </div>
+                        <input type="checkbox"  id="auto_login"  onClick="save('account_pop','pwd')"><label for="auto_login" id="label_login" >三十天内自动登录</label>
+                        <a href="#" id="forget_pwd">忘记密码？</a><br/>
+                        <input type="submit" value="登录" id="loginbtn">
+                        <a href="register.html" id="regA">立即注册</a><span id="regSpan">，享受积分换礼、返现等会员优惠！</span>
+                        
+                    </div>
+                </form>
+            </div>
+           
+            <!--手机动态密码登录-->
+        	<div class="phon_cont" id="phon_cont">
+            	<form id="phon_cont_form" action="">
+                	<span id="phonePrompt">请输入您的手机号</span>
+                	<div class="phone_name">
+                        <span><img src="../image/login/customer.jpg" align="center"></span>
+                        <input name="name" id="account_pop02" type="text" maxlength="11" placeholder="手机号" onBlur="phoneBlur()"/>
+                    </div>
+                	<input type="text" placeholder="验证码" id="phoneCode"><a href="#"><img src="../image/login/yzcode.jpg" title="点击刷新验证码" width="77" height="37"></a>
+                             
+                    <div class="login_password02">
+                        	<span><img src="../image/login/password.jpg" align="center"></span>
+                        	<input name="pwd02" id="pwd02"  type="password" maxlength="30" placeholder="动态密码"/>
+                            
+                    </div>
+                    <input type="submit" value="获取手机动态密码" id="autoPhoneCode">
+                    <input type="submit" value="登录" id="loginbtn02">
+                        <a href="register.html" id="regA">立即注册</a><span id="regSpan">，享受积分换礼、返现等会员优惠！</span>
+                </form>                               
+            </div>
+<!--QQ或新浪登录-->            
+            <ul id="loginchoose">
+            	<li><a href="#"><img src="../image/login/qq.jpg"></a></li>
+                <li><a href="#"><img src="../image/login/sina.jpg"></a></li>
+            </ul>               
+        </div>
+    </div>
+</div>
+</div>
+<!--content end-->
+<!--footer开始-->
+<div class="footer">
+	Copyright © 2002-2016 版权所有 同程网络科技股份有限公司
+ 	<a class="icp_num" href="../image/login/ICP.jpg" target="_blank">苏ICP证B2-20100204</a>
+</div>
+<!--footer end-->
+</body>
+</html>

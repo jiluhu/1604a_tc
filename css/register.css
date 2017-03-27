@@ -1,0 +1,260 @@
+/* CSS Document */
+body{
+	width:1340px;
+	height:762.44px;
+	overflow:scroll;
+	font-family:"微软雅黑";
+	font-size:12px;}
+.label{
+	font-size:14px;
+	text-align:center;}
+.requied_symbol{
+	font-size:20px;
+	color:#ff0000;
+	text-align:center;
+	vertical-align:middle;
+	margin:0px 5px 0px 0px;
+	}
+a{
+	border:none;
+	text-decoration:none;}
+.header{
+	width:1190px;
+	height:74.44px;
+	margin:0px 79.5px 0px;
+	overflow:hidden;}
+	.header img{
+		border:none;}
+	.header a{
+		border:none;
+		width:210px;
+		height:58.44px;
+		margin:16px 0px 0px;}
+	.header a{
+		float:left;}	
+	.welcome{
+		float:left;
+		font-size:22px;
+		font-weight:400;
+		width:98px;
+		height:20px;
+		margin:45px 0px 0px 15px;
+		}
+	.welcome p{
+		margin:0px;}
+.login_entry{
+		width:164px;
+		height:30px;
+		margin:42px 0px 0px;
+		float:right;
+		font-size:14px;
+		font-weight:400;
+		color:#666;
+		line-height:30px;}
+	.login_entry p{
+		margin:0px;}
+	.login_entry p a{
+		float:right;
+		margin:0px 0px 0px 6px;
+		padding:0px;
+		width:58px;
+		height:26px;
+		border-radius:2px;
+		border-style:solid;
+		border-color:#ddd;
+		border-width:1px;
+		text-align:center;
+		vertical-align:center;
+		color:#666;}	
+	.login_entry p a:hover{
+		background-color:#f0f0f0;}				
+.content{
+	width:1190px;
+	height:542px;
+	margin:12px 79.5px 0px;
+	overflow:hidden;}
+	li{
+		list-style:none;}
+	.panel{
+		width:1190px;
+		height:542px;
+		margin:0px;}
+	.panel_middle step1{
+		width:1190px;
+		height:517px;
+		margin:0px;}
+	.step_name{
+		 overflow:hidden;
+		 background-image:url(../image/register/step_name.jpg);
+		 background-repeat:no-repeat;
+		 background-position:5px 0px;
+		width:1190px;
+		height:60px;
+		margin:0px;}
+			.step_name_1{
+				width:246px;
+				height:34px;
+				padding:26px 0px 0px;
+				margin:0px 0px 0px 170px;
+				float:left;
+				color:#50b400;
+				font-size:16px;
+				font-weight:700;
+				line-height:24px;
+				text-align:center;}
+			.step_name_2{
+				width:246px;
+				height:34px;
+				padding:26px 0px 0px;
+				margin:0px;
+				float:left;
+				color:#999;
+				font-size:16px;
+				font-weight:700;
+				line-height:24px;
+				text-align:center;}
+			.step_name_3{
+				width:246px;
+				height:34px;
+				padding:26px 0px 0px;
+				margin:0px 0px 0px 32px;
+				float:left;
+				color:#999;
+				font-size:16px;
+				font-weight:700;
+				line-height:24px;
+				text-align:center;}
+			
+	 .step_cont_1{
+		width:1190px;
+		height:417px;
+		margin:40px 0px 0px;}
+	 .register_wrapper{
+		 width:723.2px;
+		 height:417px;
+		 margin:0px 0px 0px 274px;}
+	  form{
+		  width:723.2px;
+		 height:417px;
+		 margin:0px;}
+/*手机号码*/	
+.phone_register_info_line{
+				  width:723.2px;
+				  height:34px;
+				  padding:17px 0px;
+				  margin-bottom:-15px;}
+					 .label{
+						width:95px;
+						height:21.54;}
+				   .input_invalid{
+					   width:258px;
+					   height:32px;
+					   padding:0px 0px 0px 10px;
+					   margin:0px 0px 0px 10px;
+					   border:1px solid #dddddd;}
+					.input_invalid:hover{
+						border-color:#f60;}	
+					.input_password{
+						width:258px;
+					   height:32px;
+					   padding:0px 0px 0px 10px;
+					   margin:0px 0px 0px 10px;
+					   border:1px solid #dddddd;}
+					.input_password:hover{
+						border-color:#f60;}
+/*登录密码*/					   				  					  				.password_register_info_line{
+					width:853.2px;
+					height:34px;
+					padding:17px 0px;
+					margin-bottom:0px;}				
+/*安全程度*/				
+.password_strength{
+					  width:678.31px;
+					  height:16px;
+					  padding:0px 0px 0px 193px;
+					  margin:0px;}
+.password_strength span{
+					   float:left;
+					   width:60px;
+					   height:16px;
+					   color:#999;}	  
+.password_strength li{
+					  float:left;
+					  width:34px;
+					  height:16px;
+					  margin:0px 0px 0px 2px;
+					  line-height:16px;
+					  font-size:11px;
+					  color:#fff;
+					  background-color:#ccc;
+					  text-align:center;}  				  
+/*确认密码*/				  
+.password_register_second_info_line{
+					width:723.2px;
+				   height:34px;
+				   padding:17px 0px;
+				   margin-top:0px;
+				   margin-bottom:-10px;}						 
+/*图形验证码*/				 
+.code_register_info_line{
+	   float:left;
+	   width:888.31px;
+	   height:34px;
+	   padding:17px 0px 17px 0px;
+	   margin-top:0px;
+	   vertical-align:middle;
+ /*margin-right:500px;*/}
+.code_register_info_line .lable{
+		width:95px;
+		height:21.54px;}
+.input_code{
+		width:105px;
+		height:32px;
+	    padding:0px 0px 0px 10px;
+ 		margin:0px 0px 0px 10px;
+ 		border:1px solid #dddddd;}
+.input_code:hover{
+		border-color:#f60;}
+#verifCodeSpan{
+	margin-left:150px;}							
+#verifCodeImg{
+	margin:0px;
+	padding:0px;
+	border:none;
+	position:absolute;}				   
+/*同程旅游联名合作卡*/			   
+#has_co_brand_card_line{
+	  /*width:723.2px;
+	  height:20px;*/
+	  font-size:12px;
+	  color:#666;
+	  margin:-10px 4px 5px 100px;}
+/*我已阅读并同意《同程旅游服务条款》*/	   
+#has_read_and_agree_line{
+  /*width:723.2px;
+   height:33px;*/
+   font-size:12px;
+   color:#666;
+   margin:5px 4px 5px 100px;}
+/*同意服务条款并注册*/				   
+#register_submit_btn_wrapper{
+   width:220px;
+   height:42px;				  
+   background-color:#ff7800;
+   color:#FFF;
+   font-size:20px;
+   margin:10px 0px 0px 100px;
+   text-align:center;
+   line-height:42px;}
+/*footer*/ 
+.footer{
+	overflow:hidden;
+	with:1190px;
+	height:20px;
+	margin:83px 79.5px 0px;
+	padding:10px 0px 20px;
+	border-top:1px solid #eee;
+	color:#999;
+	text-align:center;}
+	.footer a{
+		color:#999;}

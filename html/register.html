@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>注册同程旅游</title>
+<link href="../css/register.css" rel="stylesheet" type="text/css"/>
+<script src="../js/register.js" language="javascript"></script>
+</head>
+
+<body>
+<!--header开始-->
+	<div class="header">
+    <!--logo开始-->
+    <a title="同程旅游" href="tcly.html"><img alt="同程旅游" src="../image/register/reg20151231102443.png"/>  
+    </a>
+    <!--logo end-->
+    <!--欢迎注册-->
+    <div class="welcome">
+    <p>欢迎注册</p>
+    </div>
+    <!--已有同程账号？登录-->
+    <div class="login_entry">
+    <p>
+    已有同程账号？
+    <a href="login.html">登录</a>
+    </p>
+    </div>
+    </div>
+<!--header end-->
+<!--content开始-->
+	<div class="content">
+    <div class="panel">
+    	<div class="panel_middle step1">
+        	<ul class="step_name">
+            	<li class="step_name_1">填写注册信息</li>
+                <li class="step_name_2">接受并填写验证码</li>
+                <li class="step_name_3">注册成功</li>
+            </ul>
+        	<div class="step_cont_1">
+            	<div class="register_wrapper">
+                	<form name="registerStep1" id="registerStep1" action="#" method="post">
+                    	<!--手机号码-->
+                    	<p class="phone_register_info_line" id="telline">
+                        <label class="label" for="mobileNum">
+                        &nbsp;&nbsp;<span class="requied_symbol">*</span>
+                            手机号码
+                        </label>
+                        <input name="mobileNum" class="input_invalid" id="mobileNum" type="text" maxlength="11" onBlur="phoneblur()"/>
+                        <span class="invalid_message" id="mobileNumSpan"></span>
+                        </p>
+                        <!--登录密码-->
+                        <p class="password_register_info_line">
+                        <label class="label" for="pwdOnce">
+                        &nbsp;&nbsp;<span class="requied_symbol">*</span>
+                            登录密码
+                        </label>
+                        <input name="pwdOnce" class="input_password" id="pwdOnce" type="password" maxlength="18" onBlur="pwdOnceblur()"/>
+                        <span class="prompt" id="pwdOnceSpan">6-18位，区分大小写,字母、数字、特殊符号中的两种或两种以上</span>
+                        </p>
+                        <!--安全程度-->
+                        <ul class="password_strength">
+                        <span>安全程度：</span>
+                        	<li>弱</li>
+                            <li>中</li>
+                            <li>强</li>
+                        </ul>
+                        <!--确认密码-->
+                        <p class="password_register_second_info_line">
+                        <label class="label" for="pwdTwice">
+                        &nbsp;&nbsp;<span class="requied_symbol">*</span>
+                        确认密码
+                        </label>
+                        <input name="pwdTwice" class="input_password" id="pwdTwice" type="password" maxlength="18" data-prompt="" onBlur="pwdTwiceblur()">
+                        <span id="pwdTwiceSpan"></span>
+                        </p>
+                        <!--图形验证码-->
+                        <p class="code_register_info_line">
+                        <label class="label" for="verifCode"><span class="requied_symbol">*</span>图形验证码</label>
+                        <input name="verifCode" class="input_code" id="verifCode" type="text" maxlength="6" value="" onBlur="verifCodeblur()">
+                        
+                        <a href="#"><img src="../image/register/getcap.jpg" width="130" height="34" title="点击刷新验证码" id="verifCodeImg"></a>
+                        <span id="verifCodeSpan"></span>
+                        </p>
+                        <!--同程旅游联名合作卡-->
+                        
+                        <input type="checkbox" id="has_co_brand_card_line">我有同程旅游合作联名卡
+                        <br/>
+                        <!--我已阅读并同意《同程旅游服务条款》-->
+                       
+                        <input type="checkbox" checked id="has_read_and_agree_line">我已阅读并同意<a href="#">《同程旅游服务条款》</a>
+                        <br/>
+                        <!--同意服务条款并注册-->
+                        <a href="#"><div  id="register_submit_btn_wrapper" onClick="register()">同意服务条款并注册</div></a>
+                        <!--<input type="submit" value="同意服务条款并注册" id="register_submit_btn_wrapper" onClick="register()">-->                       
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    </div>
+<!--content end-->
+<!--footer开始-->
+    <div class="footer">
+	Copyright&nbsp;©&nbsp;2002-2016&nbsp;版权所有&nbsp;同程网络科技股份有限公司&nbsp;
+	<a class="icp_num" href="../image/register/ICP.jpg" target="_blank">苏ICP证B2-20100204</a>    
+    </div>
+<!--footer end-->
+</body>
+</html>
