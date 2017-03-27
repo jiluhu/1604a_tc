@@ -1,0 +1,1980 @@
+/* CSS Document */
+/**{
+	border:1px solid red;}*/
+body{
+	/*overflow:scroll;*/
+	width:1340px;
+	height:6231px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	}
+/*header*/
+.header{
+	/*overflow:hidden;*/
+	width:1340px;
+	height:164px;}
+#topNavWrapper{
+	width:1340px;
+	height:28px;
+	border-bottom:1px solid #f1f1f1;
+	background-color:#fafafa;}
+#topNavPanel{
+	width:1190px;
+	height:28px;
+	margin:0px 79.5px;}
+#topLogin{
+	float:left;
+	width:185.18px;
+	height:28px;
+	margin:0px;
+	padding:0px;
+	font-family:Microsoft YaHei;
+	color:#999;
+	font-size:12px;
+	line-height:28px;}
+.login{
+	float:left;
+	width:24px;
+	height:28px;
+	padding:0px 5px;
+	margin:0px 0px 0px 5px;
+	color:#f60;
+	font-size:12px;
+	line-height:28px;
+	vertical-align:middle;}
+.register{
+	float:left;
+	width:24px;
+	height:28px;
+	padding:0px 5px;
+	color:#999;
+	font-size:12px;
+	line-height:28px;
+	vertical-align:middle;}
+.register:hover{
+	color:#f60;}			
+#topNav{
+	float:right;
+	width:469.55px;
+	height:28px;
+	margin:0px;
+	padding:0px;
+	line-height:28px;}
+/*我的同城*/
+#topMyTc{
+	float:left;
+	width:80px;
+	height:28px;
+	border-width:0px 1px;}
+#topMyTc:hover{
+	background-color:#FFF;}
+#MyTctable{
+	width:162px;
+	height:150px;
+	/*border:1px solid #000;*/
+	background-color:#FFF;
+	display:none;
+	position:relative;
+	}
+#MyTctable tr td a:hover{
+	color:#ff7800;}				
+/*手机同城*/					
+#mobileTc{
+	float:left;
+	width:102px;
+	height:28px;
+	border-width:0px 1px;}
+#mobileTc:hover{
+	background-color:#FFF;}
+#mobileTcimg{
+	width:151px; 
+	height:225px;
+	margin:0px;
+	padding:0px;
+	/*border:1px solid #000;*/
+	background-color:#FFF;
+	font-size:12px;
+	color:#333;
+	line-height:28px;
+	position:relative;
+	bottom:1px;
+	right:1px;
+	display:none;
+	z-index:1;}									
+/*微信*/					
+#weixinTc{
+	float:left;
+	width:56px;
+	height:28px;
+	border-width:0px 1px;}
+#weixinTc:hover{
+	background-color:#FFF;}		
+#weixinimg{
+	width:317px; 
+	height:153px;
+	margin:0px;
+	padding:0px;
+	/*border:1px solid #000;*/
+	background-color:#FFF;
+	font-size:12px;
+	color:#333;
+	line-height:28px;
+	position:relative;
+	bottom:1px;
+	right:262px;
+	display:none;}
+/*电话*/
+#tcPhone{
+	float:left;
+	width:56px;
+	height:28px;
+	border-width:0px 1px;}
+#tcPhone:hover{
+	background-color:#FFF;}	
+/*#topNav a{
+	font-size:12px;
+	text-align:center;
+	color:#333;}*/	
+#phoneimg{
+	width:207px;
+	height:71px;
+	margin:0px;
+	padding:0px;
+	/*border:1px solid #000;*/
+	background-color:#FFF;
+	font-size:12px;
+	color:#333;
+	line-height:28px;
+	position:relative;
+	bottom:1px;
+	right:152px;
+	display:none;}	
+/*客户服务*/
+#servicePhone{
+	float:left;
+	width:83.55px;
+	height:28px;
+	border-width:0px 1px;}
+#servicePhone:hover{
+	background-color:#FFF;}	
+/*#topNav a{
+	font-size:12px;
+	text-align:center;
+	color:#333;}*/	
+#servicePhonelist{
+	width:83.55px;
+	height:113px;
+	margin:0px;
+	padding:0px;
+	/*border:1px solid #000;*/
+	background-color:#FFF;
+	font-size:12px;
+	color:#333;
+	line-height:28px;
+	position:relative;
+	bottom:1px;
+	display:none;}
+#servicePhonelist a{
+	color:#333;}	
+#servicePhonelist li{
+	width:80px;
+	height:28px;
+	text-align:center;
+	}
+#servicePhonelist li:hover{
+	background-color:#f0f0f0;}
+/*合作中心*/					
+#topJoinTc{
+	float:left;
+	width:80px;
+	height:28px;
+	}
+#topJoinTc:hover{
+	background-color:#FFF;}	
+#topNav a{
+	font-size:12px;
+	text-align:center;
+	color:#333;}	
+#topJoinTclist{
+	width:80px;
+	height:113px;
+	margin:0px;
+	padding:0px;
+	//border:1px solid #000;
+	background-color:#FFF;
+	font-size:12px;
+	color:#333;
+	line-height:28px;
+	position:relative;
+	bottom:1px;
+	display:none;}
+#topJoinTclist a{
+	color:#333;}	
+#topJoinTclist li{
+	width:80px;
+	height:28px;
+	text-align:center;
+	}
+#topJoinTclist li:hover{
+	background-color:#f0f0f0;}								
+li{
+	list-style:none;}			
+a{
+	text-decoration:none;}	
+#headerWrapper{
+	width:1190px;
+	height:89px;
+	margin:0px 79.5px;}
+.logo_style{
+	float:left;
+	width:302px;
+	height:89px;}
+.logo{
+	float:left;
+	width:210px;
+	height:89px;}
+.logo a img{
+	border:0px dashed #FFFFFF;}	
+/*城市列表*/						
+#nowCity{
+	float:right;
+	width:77px;
+	height:62.57px;
+	margin:12px 0px 0px 15px;
+	position:absolute;
+	left:300px;
+	/*border:1px solid #f0f0f0*/;
+	text-align:center;
+	vertical-align:middle;
+	font-size:20px;
+	color:#333;
+	line-height:62.57px;
+	/*background:#f0f0f0;*/}
+#citydiv{
+	width:355px;
+	height:150px;
+	position:absolute;
+	top:105px;
+	left:315px;
+	border-left:2px solid #f0f0f0;
+	border-right:2px solid #f0f0f0;
+	border-bottom:2px solid #f0f0f0;
+	background-color:#FFF;
+	z-index:1;
+	display:none;}
+#cityul{
+	margin:10px 0px 10px 0px;
+	padding:0px 0px 0px 20px;}		
+#cityul li{
+	cursor:pointer;
+	float:left;	
+	height:24px;
+	margin:0px;
+	padding:5px;
+	font-size:14px;
+	font-weight:700;
+	line-height:24px;
+	color:#50b400;}
+#cityTable{
+	margin:0px 0px 0px 10px;}			
+#cityTable tr td{
+	width:45px;
+	height:20px;
+	cursor:pointer;
+	color:#666;
+	font-size:14px;
+	padding:0px 5px;
+	font-weight:500;
+	}
+#cityTable tr td:hover{
+	color:#ff7800;}				
+.s_box_outer{
+	float:right;
+	width:821px;
+	height:75px;}
+.searchcon{
+	float:left;
+	width:561px;
+	height:40px;
+	padding:27px 0px 0px;}
+.autofill_empty{
+	width:466px;
+	height:34px;
+	border:3px solid #ff7800;
+	text-indent:10px;
+	line-height:33px;
+	font-size:14px;
+	color:#666;}
+.search-btn{
+	float:right;
+	width:84px;
+	height:40px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:18px;
+	text-align:center;
+	vertical-align:middle;
+	line-height:39px;
+	}		
+.rightpic{
+	float:right;
+	width:260px;
+	height:75px;
+	text-align:center;}			
+/*导航列表*/	
+#menuNavOuter{
+	width:1340px;
+	height:46px;
+	background-color:#4c5a65;
+	margin:0px;
+	padding:0px;}	
+	#menuNav{
+		width:1190px;
+		height:46px;
+		margin:0px 79.5px 0px 55px;}	
+		#menuNav li{
+			float:left;
+			text-align:center;
+			color:#FFF;
+			font-size:20px;
+			line-height:30px;}
+		#menuNav a{
+			color:#FFF;}
+		#menuNav a:hover{
+			/*background-color:#FFF;*/
+			color:#666666;}		
+		#menuNav li:hover{
+				background-color:#FFF;
+				color:#666666;
+				cursor:pointer;}		
+		.menuNav01{
+			width:58px;
+			height:30px;
+			padding:6px 0px 10px;
+			margin:0px;
+			}
+		#menuNav02{
+			color:#FFF;}	.menuNav02,.menuNav03,.menuNav04,.menuNav08,.menuNav09,.menuNav13,.menuNav14{
+			width:75.73px;
+			height:30px;
+			padding:6px 0px 10px;
+			margin:0px;
+			color:#FFF;}
+			.menuNav05,.menuNav06,.menuNav07,.menuNav10,.menuNav11{
+				width:91.73px;
+				height:30px;
+				padding:6px 0px 10px;
+				margin:0px;
+				color:#FFF;}
+			.menuNav12{
+				width:107.73px;
+				height:30px;
+				padding:6px 0px 10px;
+				margin:0px;
+				color:#FFF;}
+/*景点列表*/			
+#sy{
+	width:1110px;
+	height:46px;
+	margin:0px 0px 0px 100px;
+	/*border:1px solid #000;*/
+	display:none;
+	position:relative;
+	top:5px;
+	right:158px;
+	z-index:1;}			
+#sy li{
+	float:left;
+	margin:0px 10px 0px 10px;
+	line-height:46px;}			
+#sy li a{
+	color:#666666;
+	font-size:18px;
+	}			
+#sy li a:hover{
+	color:#ff7800;
+	}		
+/*酒店列表*/			
+#jd{
+	width:1110px;
+	height:46px;
+	margin:0px 0px 0px 100px;
+	/*border:1px solid #000;*/
+	display:none;
+	position:relative;
+	top:5px;
+	right:234px;
+	z-index:1;}			
+#jd li{
+	float:left;
+	margin:0px 10px 0px 10px;
+	line-height:46px;}			
+#jd li a{
+	color:#666666;
+	font-size:18px;
+	}			
+#jd li a:hover{
+	color:#ff7800;
+	}	
+/*机票列表*/			
+#jp{
+	width:1110px;
+	height:46px;
+	margin:0px 0px 0px 100px;
+	/*border:1px solid #000;*/
+	display:none;
+	position:relative;
+	top:5px;
+	right:309px;
+	z-index:1;}			
+#jp li{
+	float:left;
+	margin:0px 10px 0px 10px;
+	line-height:46px;}			
+#jp li a{
+	color:#666666;
+	font-size:18px;
+	}			
+#jp li a:hover{
+	color:#ff7800;
+	}
+/*周边游列表*/			
+#zby{
+	width:1110px;
+	height:46px;
+	margin:0px 0px 0px 100px;
+	/*border:1px solid #000;*/
+	display:none;
+	position:relative;
+	top:5px;
+	right:385px;
+	z-index:1;}			
+#zby li{
+	float:left;
+	margin:0px 10px 0px 10px;
+	line-height:46px;}			
+#zby li a{
+	color:#666666;
+	font-size:18px;
+	}			
+#zby li a:hover{
+	color:#ff7800;
+	}
+/*国内游列表*/			
+#gny{
+	width:1110px;
+	height:46px;
+	margin:0px 0px 0px 100px;
+	/*border:1px solid #000;*/
+	display:none;
+	position:relative;
+	top:5px;
+	right:477px;
+	z-index:1;}			
+#gny li{
+	float:left;
+	margin:0px 10px 0px 10px;
+	line-height:46px;}			
+#gny li a{
+	color:#666666;
+	font-size:18px;
+	}			
+#gny li a:hover{
+	color:#ff7800;
+	}
+/*出境游列表*/			
+#cjy{
+	width:1110px;
+	height:46px;
+	margin:0px 0px 0px 100px;
+	/*border:1px solid #000;*/
+	display:none;
+	position:relative;
+	top:5px;
+	right:569px;
+	z-index:1;}			
+#cjy li{
+	float:left;
+	margin:0px 10px 0px 10px;
+	line-height:46px;}			
+#cjy li a{
+	color:#666666;
+	font-size:18px;
+	}			
+#cjy li a:hover{
+	color:#ff7800;
+	}
+/*邮轮列表*/			
+#yl{
+	width:1110px;
+	height:46px;
+	margin:0px 0px 0px 100px;
+	/*border:1px solid #000;*/
+	display:none;
+	position:relative;
+	top:5px;
+	right:660px;
+	z-index:1;}			
+#yl li{
+	float:left;
+	margin:0px 10px 0px 10px;
+	line-height:46px;}			
+#yl li a{
+	color:#666666;
+	font-size:18px;
+	}			
+#yl li a:hover{
+	color:#ff7800;
+	}	
+/*定制旅游列表*/			
+#dzly{
+	width:1110px;
+	height:46px;
+	margin:0px 0px 0px 100px;
+	/*border:1px solid #000;*/
+	display:none;
+	position:relative;
+	top:5px;
+	right:995px;
+	z-index:1;}			
+#dzly li{
+	float:right;
+	margin:0px 10px 0px 10px;
+	line-height:46px;}			
+#dzly li a{
+	color:#666666;
+	font-size:18px;
+	}			
+#dzly li a:hover{
+	color:#ff7800;
+	}
+/*金融列表*/			
+#jr{
+	width:1110px;
+	height:46px;
+	margin:0px 0px 0px 100px;
+	/*border:1px solid #000;*/
+	display:none;
+	position:relative;
+	top:5px;
+	right:1103px;
+	z-index:1;}			
+#jr li{
+	float:right;
+	margin:0px 10px 0px 10px;
+	line-height:46px;}			
+#jr li a{
+	color:#666666;
+	font-size:18px;
+	}			
+#jr li a:hover{
+	color:#ff7800;
+	}
+/*攻略列表*/			
+#gl{
+	width:1110px;
+	height:46px;
+	margin:0px 0px 0px 100px;
+	/*border:1px solid #000;*/
+	display:none;
+	position:relative;
+	top:5px;
+	right:1178px;
+	z-index:1;}			
+#gl li{
+	float:right;
+	margin:0px 10px 0px 10px;
+	line-height:46px;}
+			
+#gl li a{
+	color:#666666;
+	font-size:18px;
+	}			
+#gl li a:hover{
+	color:#ff7800;
+	}				
+/*csliderMain轮播*/
+.csliderMain{
+	overflow:hidden;
+	width:1340px;
+	height:352px;
+	background-size:1340px 352px;
+	background-repeat:no-repeat;}
+.csliderMain ul{
+	position:relative;
+	top:300px;
+	left:650px;}
+.csliderMain ul li{
+	float:left;
+	width:18px;
+	height:18px;
+	margin:0px 5px;
+	padding:1px;
+	background-color:#38415f;
+	color:#FFF;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	line-height:18px;}
+/*content_box内容*/
+/*左侧菜单栏*/
+#leftMenu{
+	width:40px;
+	height:278px;
+	position:absolute;
+	/*top:50%;*/	
+	/*left:0px;*/
+	display:none;}
+	#leftMenu ul{
+		width:40px;
+		height:278px;
+		margin:0px 0px 0px 30px;
+		padding:0px;
+		background-color:#f5f5f5;}
+	#leftMenu ul li{
+		margin:0px;
+		padding:0px;
+		width:40px;
+		height:34px;
+		font-size:12px;
+		color:#625351;
+		font-weight:bold;
+		line-height:34.75px;
+		text-align:center;
+		border-bottom:1px dashed #c2c2c2;
+		}
+		#leftMenu ul li a:link{
+		margin:0px;
+		padding:0px;
+		width:40px;
+		height:34px;
+		font-size:12px;
+		color:#625351;
+		line-height:34.75px;
+		text-align:center;		
+		}
+	#leftMenu ul li:hover{
+		background-color:#ff6633;}	
+	#leftMenu ul li a:hover{
+		margin:0px;
+		padding:0px;
+		width:40px;
+		height:34px;
+		font-size:12px;		
+		line-height:34.75px;
+		text-align:center;		
+		color:#FFF;
+		}
+/*右侧菜单栏*/
+#rightMenu{
+	width:40px;
+	height:608px;
+	position:fixed;
+	left:1308px;
+	/*border:1px solid #F00;*/
+	background-color:#333333;}
+#rm0000{
+	 width:40px;
+	 height:146;
+	 margin:0px 0px 5px 0px;}
+#rm0001{
+	 position:fixed;
+	 left:1118px;
+	 display:none;}
+#rm0101{
+	 position:fixed;
+	 left:1222px;
+	 top:155px;
+	 display:none;}
+#rm0201{
+	 position:fixed;
+	 left:1222px;
+	 top:205px;
+	 display:none;}
+#rm0301{
+	 position:fixed;
+	 left:1222px;
+	 top:255px;
+	 display:none;}
+#rm0401{
+	 position:fixed;
+	 left:1222px;
+	 top:305px;
+	 display:none;}
+#rm0501{
+	 position:fixed;
+	 left:1222px;
+	 top:355px;
+	 display:none;}
+#rm0601{
+	 position:fixed;
+	 left:1143px;
+	 top:355px;
+	 display:none;}
+#rm0602{
+	 position:fixed;
+	 left:1308px;
+	 top:495px;
+	 display:none;}	 
+#rm0701{
+	 position:fixed;
+	 left:1222px;
+	 top:565px;
+	 display:none;}			 		 		 		
+#rm0100,#rm0200,#rm0300，#rm0400，#rm0500{
+	 width:40px;
+	 height:43;
+	 margin:0px 0px 5px 0px;}
+#rm0600{
+	 width:40px;
+	 height:43;
+	 margin:90px 0px 5px 0px;;
+	 /*padding:30px 0px;*/}
+#rm0700{
+	 width:40px;
+	 height:43;
+	 /*margin:50px 0px;*/
+	 /*padding:30px 0px;*/}	 	 
+/*搜索区*/
+.search_box{
+	width:500px;
+	height:352px;
+	position:absolute;
+	top:164px;
+	/*border:1px solid #000;*/
+	left:95px;
+	background-color:#FFF;}
+	#soso_top_title{
+		float:left;
+		width:125px;
+		height:352px;
+		/*border:1px solid #F3C;*/
+		background-color:#38414c;}
+		.search_left div{
+			cursor:pointer;			
+			width:125px;
+			height:42px;
+			margin:0px 0px 0px 0px;
+			padding:0px 0px 0px 0px;
+			/*border:1px solid #0F3;*/
+			color:#FFF;
+			font-size:14px;			
+			line-height:44px;
+			cursor:pointer;
+			text-align:center;
+			}
+/*景点门票*/
+#soso_tab_content01{
+	float:left;
+	width:304px;
+	height:324px;
+	padding:12px 0px 0px 30px;
+	/*border:1px solid #F3C;*/
+	background-color:#FFF;
+	position:absolute;
+	left:125px;
+	/*display:none;*/
+	/*z-index:1;*/}
+#jdttop{
+	width:300px;
+	height:25px;
+	border-bottom:2px solid #ddd;
+	margin:0px 0px 22px 0px;
+	padding:2px 0px 0px 0px;
+	color:#50b400;
+	font-size:14px;
+	font-weight:bold;}
+#jdttop li{
+	float:left;
+	width:100px;
+	height:25px;
+	text-align:center;
+	cursor:pointer;
+	}
+#jdiput01{
+	width:288px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	font-size:14px;
+	color:#999;}
+#jdiput02{
+	float:right;
+	width:130px;
+	height:36px;
+	margin:20px 0px 3px 0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:16px;
+	}
+#jdtbottom{
+	clear:both;
+	line-height:25px;}	
+#jdtbottom li{
+	color:#333;
+	font-size:12px;
+	margin:0px 20px 0px 0px;}
+#jdtbottom li a{
+	color:#333;}
+#jdtbottom li a:hover{
+	color:#ff7800;}	
+/*jdmiddle01*/	
+#jdmiddle01{
+	width:304px;
+	height:268px;
+	/*border:1px solid #000;*/
+	background-color:#FFF;
+	/*display:none;*/}
+/*jdmiddle02*/	
+#jdmiddle02{
+	width:304px;
+	height:268px;
+	/*border:1px solid #000;*/
+	/*position:relative;
+	bottom:0px;*/
+	/*z-index:1;*/
+	background-color:#FFF;
+	display:none;}
+/*jdmiddle03*/	
+#jdmiddle03{
+	width:304px;
+	height:268px;
+	/*border:1px solid #000;*/
+	/*position:relative;
+	bottom:0px;*/
+	/*z-index:1;*/
+	background-color:#FFF;
+	display:none;}
+/*酒店*/	
+#soso_tab_content02{
+	float:left;
+	width:304px;
+	height:324px;
+	padding:12px 0px 0px 30px;
+	/*border:1px solid #F3C;*/
+	background-color:#FFF;
+	position:absolute;
+	left:125px;
+	display:none;}
+#hoteltop{
+	width:300px;
+	height:25px;
+	border-bottom:2px solid #ddd;
+	margin:0px 0px 10px 0px;
+	padding:2px 0px 0px 0px;
+	color:#50b400;
+	font-size:14px;
+	font-weight:bold;}
+#hoteltop li{
+	float:left;
+	width:100px;
+	height:25px;
+	text-align:center;
+	cursor:pointer;
+	}
+#hotel01input01{
+	width:217px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:5px 0px 20px 10px;
+	font-size:14px;
+	color:#999;}
+#hotel01input02,#hotel01input03,#hotel01input04{
+	width:217px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 20px 10px;
+	font-size:14px;
+	color:#999;}	
+#hotel01input05{
+	float:right;
+	width:130px;
+	height:36px;
+	margin:20px 0px 3px 0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:16px;
+	}
+/*hotel01*/	
+#hotel01{
+	width:304px;
+	height:268px;
+	/*border:1px solid #000;*/
+	background-color:#FFF;
+	/*display:none;*/}
+
+/*hotel02*/	
+#hotel02{
+	width:304px;
+	height:268px;
+	/*border:1px solid #000;*/
+	background-color:#FFF;
+	display:none;}
+#hotel02input01{
+	/*float:left;*/
+	width:200px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:5px 0px 10px 40px;
+	font-size:14px;
+	color:#999;}
+#hotel02input02,#hotel02input03,#hotel02input06{
+	width:200px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 10px 25px;
+	font-size:14px;
+	color:#999;}
+#hotel02input04{
+	width:213px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 10px 32px;
+	font-size:14px;
+	color:#999;}	
+#hotel02input05{
+	width:213px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 10px 0px;
+	font-size:14px;
+	color:#999;}
+#hotel02input06{
+	width:200px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 5px 40px;
+	font-size:14px;
+	color:#999;}	
+#hotel02input07{
+	float:right;
+	width:130px;
+	height:36px;
+	margin:5px 0px 3px 0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:16px;
+	}	
+/*hotel03*/	
+#hotel03{
+	width:304px;
+	height:268px;
+	/*border:1px solid #000;*/
+	background-color:#FFF;
+	display:none;}
+#hotel03input01{
+	/*float:left;*/
+	width:217px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:5px 0px 10px 10px;
+	font-size:14px;
+	color:#999;}
+#hotel03input02,#hotel03input03,#hotel03input04,#hotel03input05{
+	width:217px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 10px 10px;
+	font-size:14px;
+	color:#999;}
+	
+#hotel03input06{
+	float:right;
+	width:130px;
+	height:36px;
+	margin:20px 0px 3px 0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:16px;
+	}
+/*机票*/
+#soso_tab_content03{
+	float:left;
+	width:304px;
+	height:324px;
+	padding:12px 0px 0px 30px;
+	/*border:1px solid #F3C;*/
+	background-color:#FFF;
+	position:absolute;
+	left:125px;
+	display:none;}
+#flytop{
+	width:300px;
+	height:25px;
+	border-bottom:2px solid #ddd;
+	margin:0px 0px 22px 0px;
+	padding:2px 0px 0px 0px;
+	color:#50b400;
+	font-size:14px;
+	font-weight:bold;}
+#flytop li{
+	float:left;
+	width:150px;
+	height:25px;
+	text-align:center;
+	cursor:pointer;
+	}
+#flygn{
+	width:300px;
+	height:270px;
+	margin:0px;
+	padding:0px;
+	/*border:1px solid #c9c9c9;*/
+	/*position:absolute;*/
+	}	
+#flygnxcqh01{
+	width:300px;
+	height:200px;
+	margin:20px 0px 20px 0px;
+	padding:0px;
+	/*border:1px solid #000;*/}
+#flygnxcqh01 tr td{
+	margin:20px 0px 20px 0px;
+	padding:0px 70px 10px 0px;}
+/*单程	*/
+#flygnxcqh0101,#flygnxcqh0102,#flygnxcqh0103{
+	width:100px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 0px 0px;
+	font-size:14px;
+	color:#999;}	
+#flygnxcqh0104{
+	float:right;
+	width:130px;
+	height:36px;
+	margin:0px 0px 3px 0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:16px;
+	}
+/*往返*/
+#flygnxcqh0201,#flygnxcqh0202,#flygnxcqh0203{
+	width:100px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 0px 0px;
+	font-size:14px;
+	color:#999;}
+#flygnxcqh0204{
+	float:right;
+	width:130px;
+	height:36px;
+	margin:0px 0px 3px 0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:16px;
+	}
+/*联程*/
+#flygnxcqh0301,#flygnxcqh0302,#flygnxcqh0303{
+	width:100px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 0px 0px;
+	font-size:14px;
+	color:#999;}
+#flygnxcqh0304{
+	float:right;
+	width:130px;
+	height:36px;
+	margin:0px 0px 3px 0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:16px;
+	}
+#flyxcqhchange{
+	width:28px;
+	height:91px;
+	position:absolute;
+	bottom:100px;
+	left:150px;
+	/*border:1px solid red;*/
+	background-image:url(../image/middle/%E6%90%9C%E7%B4%A2%E5%8C%BA/%E7%81%AB%E8%BD%A6%E7%A5%A8/changebefore.jpg);}
+#flygnxcqh02{
+	width:300px;
+	height:200px;
+	margin:20px 0px 20px 0px;
+	padding:0px;
+	display:none;
+	/*border:1px solid #000;*/
+	position:absolute;
+	top:80px;
+	background-color:#FFF;}
+#flygnxcqh02 tr td{
+	margin:20px 0px 20px 0px;
+	padding:0px 70px 10px 0px;}
+#flyxcqhchange02{
+	width:28px;
+	height:91px;
+	position:absolute;
+	bottom:70px;
+	left:120px;
+	background-image:url(../image/middle/%E6%90%9C%E7%B4%A2%E5%8C%BA/%E7%81%AB%E8%BD%A6%E7%A5%A8/changebefore.jpg);}
+#flygnxcqh03{
+	width:300px;
+	height:200px;
+	margin:20px 0px 20px 0px;
+	padding:0px;
+	display:none;
+	/*border:1px solid #000;*/
+	position:absolute;
+	top:80px;
+	background-color:#FFF;}
+#flygnxcqh03 tr td{
+	margin:10px 0px 10px 0px;
+	padding:0px 70px 5px 0px;}
+/*周边游*/
+#soso_tab_content04{
+	float:left;
+	width:304px;
+	height:324px;
+	padding:12px 0px 0px 30px;
+	/*border:1px solid #F3C;*/
+	position:absolute;
+	bottom:15px;
+	right:40px;
+	background-color:#FFF;
+	display:none;
+	}
+/*zbmiddle01*/	
+#zbmiddle01{
+	width:304px;
+	height:268px;
+	/*border:1px solid #000;*/
+	background-color:#FFF;
+	/*display:none;*/}
+/*zbmiddle02*/	
+#zbmiddle02{
+	width:304px;
+	height:268px;	
+	background-color:#FFF;
+	display:none;}
+/*zbmiddle03*/	
+#zbmiddle03{
+	width:304px;
+	height:268px;
+	background-color:#FFF;
+	display:none;}	
+/*国内游*/
+#soso_tab_content05{
+	float:left;
+	width:304px;
+	height:324px;
+	padding:12px 0px 0px 30px;
+	/*border:1px solid #F3C;*/
+	background-color:#FFF;
+	position:relative;
+	display:none;}
+#gntop{
+	width:300px;
+	height:25px;
+	border-bottom:2px solid #ddd;
+	margin:0px 0px 22px 0px;
+	padding:2px 0px 0px 0px;
+	color:#50b400;
+	font-size:14px;
+	font-weight:bold;}
+#gntop li{
+	float:left;
+	width:100px;
+	height:25px;
+	text-align:center;
+	cursor:pointer;
+	}
+#gninput01{
+	width:224px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:5px 0px 20px 10px;
+	font-size:14px;
+	color:#999;}
+#gninput02{
+	width:224px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 0px 10px;
+	font-size:14px;
+	color:#999;}	
+#gninput03{
+	float:right;
+	width:130px;
+	height:36px;
+	margin:20px 0px 3px 0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:16px;
+	}
+#gn01{
+	width:304px;
+	height:268px;
+	background-color:#FFF;}
+#gnlist{
+	width:304px;
+	height:90px;
+	margin:0px;
+	padding:10px;
+	clear:both;
+	line-height:25px;}	
+#gnlist li{
+	float:left;
+	color:#333;
+	font-size:12px;
+	margin:0px 30px 0px 0px;}
+#gnlist li a{
+	color:#333;}
+#gnlist li a:hover{
+	color:#ff7800;}	
+/*出境游*/
+#soso_tab_content06{
+	float:left;
+	width:304px;
+	height:324px;
+	padding:12px 0px 0px 30px;
+	/*border:1px solid #F3C;*/
+	background-color:#FFF;
+	position:absolute;
+	left:125px;
+	display:none}
+#cjtop{
+	width:300px;
+	height:25px;
+	border-bottom:2px solid #ddd;
+	margin:0px 0px 22px 0px;
+	padding:2px 0px 0px 0px;
+	color:#50b400;
+	font-size:14px;
+	font-weight:bold;}
+#cjtop li{
+	float:left;
+	width:70px;
+	height:25px;
+	text-align:center;
+	cursor:pointer;
+	}
+#cjinput01{
+	width:224px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:5px 0px 20px 10px;
+	font-size:14px;
+	color:#999;}
+#cjinput02{
+	width:224px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 0px 10px;
+	font-size:14px;
+	color:#999;}	
+#cjinput03{
+	float:right;
+	width:130px;
+	height:36px;
+	margin:20px 0px 3px 0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:16px;
+	}
+#cj01{
+	width:304px;
+	height:268px;
+	background-color:#FFF;}
+#cjlist{
+	width:304px;
+	height:90px;
+	margin:0px;
+	padding:10px;
+	clear:both;
+	line-height:25px;}	
+#cjlist li{
+	float:left;
+	color:#333;
+	font-size:12px;
+	margin:0px 30px 0px 0px;}
+#cjlist li a{
+	color:#333;}
+#cjlist li a:hover{
+	color:#ff7800;}	
+/*邮轮*/
+#soso_tab_content07{
+	float:left;
+	width:304px;
+	height:324px;
+	padding:12px 0px 0px 30px;
+	/*border:1px solid #F3C;*/
+	background-color:#FFF;
+	position:absolute;
+	left:125px;
+	display:none;}
+#yl01{
+	/*float:left;*/
+	width:217px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:5px 0px 10px 10px;
+	font-size:14px;
+	color:#999;}
+#yl02,#yl03{
+	width:217px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 10px 10px;
+	font-size:14px;
+	color:#999;}	
+#yl04{
+	float:right;
+	width:130px;
+	height:36px;
+	margin:5px 0px 3px 0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:16px;
+	}
+#yllist{
+	clear:both;
+	margin:20px 0px 0px 0px;
+	padding:20px 0px 0px 0px;
+	line-height:25px;}	
+#yllist li{
+	float:left;
+	color:#333;
+	font-size:12px;
+	margin:0px 20px 0px 0px;}
+#yllist li a{
+	color:#333;}
+#yllist li a:hover{
+	color:#ff7800;}
+/*火车票*/
+#soso_tab_content08{
+	float:left;
+	width:304px;
+	height:324px;
+	padding:12px 0px 0px 30px;
+	/*border:1px solid #F3C;*/
+	background-color:#FFF;
+	position:absolute;
+	left:125px;
+	display:none;}		
+#train{
+	width:300px;
+	height:30px;
+	margin:0px 0px 20px 0px;
+	padding:0px;}
+#train01,#train02,#train03{
+	width:100px;
+	height:30px;
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 10px 0px;
+	font-size:14px;
+	color:#999;}
+#train04{
+	/*float:right;*/
+	/*width:100px;
+	height:30px;*/
+	border:1px solid #c9c9c9;
+	padding:0px 0px 0px 10px;
+	margin:0px 0px 10px 0px;
+	font-size:14px;
+	color:#999;}
+#train05{
+	float:right;
+	width:130px;
+	height:36px;
+	margin:5px 0px 3px 0px;
+	background-color:#ff7800;
+	color:#FFF;
+	font-size:16px;
+	}
+#trainchange{
+	width:28px;
+	height:91px;
+	position:absolute;
+	bottom:200px;
+	left:150px;
+	/*border:1px solid #F00;*/
+	background-image:url(../image/middle/%E6%90%9C%E7%B4%A2%E5%8C%BA/%E7%81%AB%E8%BD%A6%E7%A5%A8/changebefore.jpg);}									
+/*主体内容*/
+/*左侧一系列无序列表*/
+.slpnel h4{
+			width:180px;
+			height:24px;
+			margin:0px 0px 17px 0px;
+			padding:0px;
+			font-size:14px;
+			line-height:24px;}			
+			.slpnel ul li{
+				float:left;
+				margin:10px 20px 10px 0px;
+				font-size:12px;
+				line-height:20px;
+				}
+			.slpnel ul li a{
+				color:#333;
+				}
+			.slpnel ul li a:hover{
+				color:#ff7800;}		
+.content_box{
+	overflow:hidden;
+	width:1190px;
+	height:4878px;
+	margin:20px 79.5px 15px;}
+	.content_main{
+		overflow:visible;
+		width:1190px;
+		height:4878px;
+		margin:25px 0px 0px;}
+/*app首单立减*/
+#GuessLike{
+	width:1190px;
+	height:269px;
+	margin:0px 0px 20px 0px;
+	}
+.liketop{
+	height:42px;
+    border-bottom:2px solid #eee;
+    margin-bottom:15px;}
+.liketop ul{
+	width:1190px;
+	height:42px;
+    margin:0px;
+	padding:0px}
+.liketop ul li{
+	float:left;
+	margin:0px 30px 0px 0px;}
+.likecon{
+	width:1190px;
+	height:210px;
+	margin:0px;}
+.likecon ul{
+	width:1190px;
+	height:210px;
+    margin:0px;
+	padding:0px}
+.likecon ul li{
+	width:182px;
+	height:198px;
+	float:left;
+	margin:0px 16px 0px 0px;
+	/*padding:1px;*/
+	vertical-align:middle;
+	text-align:center;}			
+/*精选特惠*/
+#dadProject{
+	width:1190px;
+	height:598px;
+	margin:30px 0px 32px 0px;}
+#dPtop{
+	width:1190px;
+	height:70px;
+	padding-top:27px}
+#dPtopl{	
+	float:left;
+	width:359px;
+	height:70px;
+	margin:0px;
+	padding:0px;
+	background-image:url(../image/middle/%E7%B2%BE%E9%80%89/4OiBqV.png);
+	background-repeat:no-repeat;
+	}
+#dPtopl img{
+	position:relative;
+	right:25px;
+	top:10px;}
+#dPtopr{
+	float:left;
+	width:831px;
+	height:70px;
+	margin:0px;
+	padding:0px;
+	background-image:url(../image/middle/%E7%B2%BE%E9%80%89/xT0qT8.png);
+	background-repeat:no-repeat;}
+	#dPtopr ul{
+		width:726px;
+		height:31px;
+		padding:39px 0px 0px 105px;}
+	#dPtopr ul li{
+		width:89px;
+		height:31px;
+		margin:0px 48px 0px 0px;
+		padding:0px;
+		float:left;
+		font-size:15px;
+		font-weight:bold;
+		text-align: center;
+		}
+#dPcontent{
+	width:1190px;
+	height:511px;}
+#dPcontentl{
+	float:left;
+	width:359px;
+	height:475px;
+	margin:0px;
+	padding:0px;
+	background-image:url(../image/middle/%E7%B2%BE%E9%80%89/JBBd0l.png);
+	background-repeat:no-repeat;
+	}
+	
+		#dPcontentl ul{
+		width:287px;
+		height:211px;
+		margin:0px;
+		padding:248px 0px 0px 21px;}
+#dPcontentr{
+	float:right;
+	width:831px;
+	height:475px;
+	margin:0px;
+	padding:0px;
+	background-image:url(../image/middle/%E7%B2%BE%E9%80%89/kR3ejR.png);
+	background-repeat:no-repeat;}
+	#dPcontentr ul{
+		width:802px;
+		height:463px;
+		margin:0px;
+		padding:12px 0px 0px 29px;}
+		#dPcontentr ul li{
+			float:left;
+			width:253px;
+			height:220px;
+			margin:0px 0px 13px 10px;
+			padding:0px;}
+/*周边自由行*/			
+#peripheralPlay{
+	width:1190px;
+	height:552px;
+	margin:0px 0px 20px 0px;}		
+.slpnel{
+	float:left;
+	width:180px;
+	height:415px;
+	padding:0px;
+	margin:21px 0px 0px;}
+.srpnel{
+	float:right;
+	width:990px;
+	height:479px;
+	padding:0px;
+	margin:21px 0px 0px;}
+#peripheralPlay h2{
+		width:1190px;
+		height:42px;
+		padding:0px 0px 0px 47px;
+		margin:0px;
+		font-size:28px;
+		color:#ff7800;
+		line-height:42px;
+		font-weight:700;
+		border-bottom:1px dashed #898989;
+		background-image:url(../image/middle/%E5%91%A8%E8%BE%B9/zbzyxtb.jpg);
+		background-repeat:no-repeat;}
+	#peripheralPlay #peripheralPlayul{
+		width:990px;
+		height:24px;
+		padding:0px;
+		margin:0px 0px 15px 0px;
+		}
+	#peripheralPlay #peripheralPlayul li{
+		float:left;
+		margin:0px 40px 0px 0px;}
+	#peripheralPlay #jxul{
+		width:990px;
+		height:440px;
+		padding:0px;
+		margin:0px;}	
+	#peripheralPlay #jxul li{
+		float:left;
+		padding:0px;}														
+/*国内*/		
+#inbound{
+	width:1190px;
+	height:550px;
+	margin:0px 0px 20px 0px;}
+	#inbound h2{
+		width:1190px;
+		height:42px;
+		padding:0px 0px 0px 47px;
+		margin:0px;
+		font-size:28px;
+		color:#50b400;
+		line-height:42px;
+		font-weight:700;
+		border-bottom:1px dashed #898989;
+		background-image:url(../image/middle/%E5%9B%BD%E5%86%85%E6%B8%B8/gnytb.jpg);
+		background-repeat:no-repeat;}
+	#inbound #inboundul{
+		width:990px;
+		height:24px;
+		padding:0px;
+		margin:0px 0px 15px 0px;
+		}
+	#inbound #inboundul li{
+		float:left;
+		margin:0px 40px 0px 0px;}
+	#inbound #rtul{
+		width:990px;
+		height:440px;
+		padding:0px;
+		margin:0px;}	
+	#inbound #rtul li{
+		float:left;
+		padding:0px;}	
+/*出境*/				
+#outbound{
+	width:1190px;
+	height:552px;
+	margin:0px 0px 20px 0px;}
+	#outbound h2{
+		width:1190px;
+		height:42px;
+		padding:0px 0px 0px 47px;
+		margin:0px;
+		font-size:28px;
+		color:#209ef6;
+		line-height:42px;
+		font-weight:700;
+		border-bottom:1px dashed #898989;
+		background-image:url(../image/middle/%E5%87%BA%E5%A2%83%E6%B8%B8/cjytb.jpg);
+		background-repeat:no-repeat;}
+	#outbound #outboundul{
+		width:990px;
+		height:24px;
+		padding:0px;
+		margin:0px 0px 15px 0px;
+		}
+	#outbound #outboundul li{
+		float:left;
+		margin:0px 40px 0px 0px;}
+	#outbound #rbul{
+		width:990px;
+		height:440px;
+		padding:0px;
+		margin:0px;}	
+	#outbound #rbul li{
+		float:left;
+		padding:0px;}		
+img{
+	border:0px none #FFF;
+	padding:0px;
+	margin:0px;}		
+/*景点门票*/	
+#scenicPnel{
+	width:1190px;
+	height:532px;
+	margin:0px 0px 20px 0px;}
+#scenicPnel h2{
+		width:1190px;
+		height:42px;
+		padding:0px 0px 0px 47px;
+		margin:0px;
+		font-size:28px;
+		color:#50b400;
+		line-height:42px;
+		font-weight:700;
+		border-bottom:1px dashed #898989;
+		background-image:url(../image/middle/%E6%99%AF%E7%82%B9%E9%97%A8%E7%A5%A8/jdmptb.jpg);
+		background-repeat:no-repeat;}
+	#scenicPnel #scenicPnelul{
+		width:990px;
+		height:24px;
+		padding:0px;
+		margin:0px 0px 15px 0px;
+		}
+	#scenicPnel #scenicPnelul li{
+		float:right;
+		margin:0px 40px 0px 0px;}
+	#scenicPnel #jdmplul{
+		width:780px;
+		height:420px;
+		padding:0px;
+		margin:0px;}	
+	#scenicPnel #jdmplul li{
+		float:left;
+		padding:0px;}	
+#jdmpimg{
+	margin-left:20px;
+	position:relative;
+	bottom:410px;}	
+/*周边跟团游*/				
+#bustour{
+			width:1190px;
+			height:532px;
+			margin:0px 0px 20px 0px;}
+#bustour h2{
+		width:1190px;
+		height:42px;
+		padding:0px 0px 0px 47px;
+		margin:0px;
+		font-size:28px;
+		color:#50b400;
+		line-height:42px;
+		font-weight:700;
+		border-bottom:1px dashed #898989;
+		background-image:url(../image/middle/%E5%91%A8%E8%BE%B9%E8%B7%9F%E5%9B%A2%E6%B8%B8/zbgtytb.jpg);
+		background-repeat:no-repeat;}
+	#bustour #bustourul{
+		width:990px;
+		height:24px;
+		padding:0px;
+		margin:0px 0px 15px 0px;
+		}
+	#bustour #bustourul li{
+		float:right;
+		margin:0px 40px 0px 0px;}
+	#bustour #zbgtylul{
+		width:780px;
+		height:420px;
+		padding:0px;
+		margin:0px;}	
+	#bustour #zbgtylul li{
+		float:left;
+		padding:0px;}	
+#zbgtyimg{
+	margin-left:20px;
+	position:relative;
+	bottom:410px;}			
+/*邮轮*/			
+#cruise{
+			width:1190px;
+			height:572px;
+			margin:0px 0px 20px 0px;}
+#cruiseylgs	li{
+	width:160px;
+	height:40px;
+	margin:0px;
+	padding:0px;}		
+#cruise h2{
+		width:1190px;
+		height:42px;
+		padding:0px 0px 0px 47px;
+		margin:0px;
+		font-size:28px;
+		color:#0ec5cc;
+		line-height:42px;
+		font-weight:700;
+		border-bottom:1px dashed #898989;
+		background-image:url(../image/middle/%E9%82%AE%E8%BD%AE/yltb.jpg);
+		background-repeat:no-repeat;}
+	#cruise #cruiseul{
+		width:990px;
+		height:24px;
+		padding:0px;
+		margin:0px 0px 15px 0px;
+		}
+	#cruise #cruiseul li{
+		float:left;
+		margin:0px 40px 0px 0px;}
+	#cruise #rhul{
+		width:990px;
+		height:440px;
+		padding:0px;
+		margin:0px;}	
+	#cruise #rhul li{
+		float:left;
+		padding:0px;}			
+/*机票*/			
+#flight{
+	width:1190px;
+	height:479px;
+	margin:0px 0px 40px 0px;}
+#flight h2{
+		width:1190px;
+		height:42px;
+		padding:0px 0px 0px 47px;
+		margin:0px;
+		font-size:28px;
+		color:#0ec5cc;
+		line-height:42px;
+		font-weight:700;
+		border-bottom:1px dashed #898989;
+		background-image:url(../image/middle/%E6%9C%BA%E7%A5%A8/jptb.jpg);
+		background-repeat:no-repeat;}
+.jpsrpnel{
+	float:right;
+	width:1190px;
+	height:479px;
+	padding:0px;
+	margin:21px 0px 0px;}
+	#flight h2{
+		width:1143px;
+		height:42px;
+		padding:0px 0px 0px 47px;
+		margin:0px;
+		font:28px;
+		color:#ff7800;
+		line-height:42px;
+		font-weight:400;
+		border-bottom:1px dashed #898989;}
+	#flight #flightul{
+		width:990px;
+		height:24px;
+		padding:0px;
+		margin:0px 0px 15px 15px;
+		}
+	#flight #flightul li{
+		float:left;
+		margin:0px 40px 0px 0px;}
+	#flight #jpul{
+		width:1143px;
+		height:440px;
+		padding:0px;
+		margin:0px 0px 0px 20px;}	
+	#flight #jpul li{
+		float:left;
+		padding:0px;}							
+/*cooper_box旅游局合作*/	
+.cooper_box{
+	overflow:hidden;
+	width:1190px;
+	height:284px;
+	margin:0px 79.5px;}
+	.cooper_title{
+		width:1190px;
+		height:38px;}
+		.cooper_title h3{
+			float:left;
+			width:120px;
+			height:38px;
+			padding:0px;
+			margin:0px;
+			font-weight:400;
+			line-height:38px;}
+		.cooper_title a{
+			float:right;
+			color:#0185c6;
+			line-height:38px;
+			font-weight:400;}
+	.cooper_slider{
+		width:1190px;
+		height:236px;
+		padding:0px 0px 10px 0px;
+		margin:0px;
+		border-top:1px dashed #898989;}
+		.cooper_list{
+			width:1190px;
+			height:236px;
+			padding:0px;
+			margin:0px;}
+		.cooper_list li{
+			width:1253px;
+			height:118px;
+			padding:0px;
+			margin:0px;}	
+			.cooper_each{
+				clear:both;
+				width:1253px;
+				height:118px;
+				padding:0px;
+				margin:0px;}
+			.cooper_each li{
+				float:left;
+				width:130px;
+				height:100px;
+				padding:18px 0px 0px 0px;
+				margin:0px 10px;
+				text-align:center;}
+			.cooper_each li a{
+				color:#7f7f7f;
+				font-size:14px;
+				line-height:20px;
+				}
+			.cooper_each li a:hover{
+				color:#ff6633;
+				text-decoration:underline;}		
+/*footer*/
+/*height:508px*/
+.footer{
+	overflow:hidden;
+	width:1340px;
+	height:558px;
+	margin:0px;
+	padding:0px;
+	background-color:#eaeaea;
+	font-family:Microsoft YaHei;
+	font-size:12px;}
+	.clearfix{
+		width:1190px;
+		height:159px;
+		padding:18px 0px;
+		border-bottom:1px dashed #cccccc;
+		margin:10px 79.5px 0px;}
+#fttop li a{
+	color:#999999;}
+		.clearfix li{
+			float:left;}
+	#contactUs{
+		width:1190px;
+		height:69px;
+		padding:0px 0px 10px;
+		margin:10px 79.5px 0px;
+		color:#999;}
+		#contactUs ul li{
+			width:1190px;
+			height:23px;
+			padding:0px;
+			margin:0px;}
+		#contactUs ul li span{
+			color:#fe6669;}
+	.udiyblock{
+		width:1340px;
+		height:223px;
+		padding:0px;
+		margin:0px;}
+		.hotRecom{
+			width:1190px;
+			height:23px;
+			margin:15px 120px 0px;
+			color:#999999;}
+			.hotRecom a{
+				color:#999999;}
+		.friendLink{
+			width:1190px;
+			height:46px;
+			margin:15px 120px 0px;
+			color:#999999;}
+		.friendLink a{
+				color:#999999;}	
+		.foot_info{
+			width:1190px;
+			height:60px;			
+			margin:15px 120px 0px;
+			color:#999999;}
+		.foot_info a{
+				color:#999999;
+				}
+		.foot_info a:hover{
+			color:#ff7800;}
+		.tcHonour{
+			width:1190px;
+			height:64px;			
+			margin:15px 120px 0px;
+			padding:0px;}
+		.tcHonour li{
+			float:left;
+			width:120px;
+			height:34px;
+			margin:5px 0px;
+			padding:10px 30px 10px 0px;			
+			vertical-align:middle;}
